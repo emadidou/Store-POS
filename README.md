@@ -118,3 +118,7 @@ Full technical documentation (architecture, database tables, API routes, busines
 
 - English: [DOCUMENTATION_COMPLETE_EN.md](DOCUMENTATION_COMPLETE_EN.md)
 - Français : [DOCUMENTATION_COMPLETE.md](DOCUMENTATION_COMPLETE.md)
+
+## Author
+
+**Emadeddine Hadidou** — [@emadidou](https://github.com/emadidou)
