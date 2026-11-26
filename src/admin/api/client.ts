@@ -1,7 +1,7 @@
 import { mockBusinessHours, mockCategories, mockCustomers, mockOrders, mockPickupSlots, mockProducts, mockStockMovements, mockStoreSettings, mockStoreStatus } from './mockData';
 import type { BusinessHour, Category, CategoryStockPoint, CriticalStockProduct, Customer, Order, OrderStatus, PaginatedResult, PickupSlot, Product, Purchase, PurchaseJournalRow, PurchaseStats, SalesJournalRow, StockMovement, StockMovementSummaryPoint, StockStats, StoreSettings, StoreStatus, Supplier } from './types';
+import { API_BASE_URL } from '../../api/config';
 
-const API_BASE_URL = import.meta.env.VITE_API_URL ?? 'http://localhost:8000/api';
 const TOKEN_KEY = 'maison-verde-admin-token';
 const STORE_SETTINGS_CACHE_KEY = 'maison-verde-store-settings';
 const ENABLE_ADMIN_MOCKS = import.meta.env.DEV && import.meta.env.VITE_ENABLE_ADMIN_MOCKS === 'true';
